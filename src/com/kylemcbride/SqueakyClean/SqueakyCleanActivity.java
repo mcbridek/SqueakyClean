@@ -10,6 +10,6 @@ public class SqueakyCleanActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        getActionBar().hide(); 
+        //getActionBar().hide(); 
     }
 }

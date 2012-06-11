@@ -3,5 +3,7 @@
 
     <string name="hello">Hello World, SqueakyCleanActivity!</string>
     <string name="app_name">SqueakyClean</string>
+    <color name="bg_colour">#E8DEC3</color>
+    
 
 </resources>
