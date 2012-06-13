@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Text -->
     <string name="hello">Hello World, SqueakyCleanActivity!</string>
-    <string name="app_name">SqueakyClean</string>
+    <string name="app_name">Squeaky Clean</string>
+    
+    <!-- Colors -->
     <color name="bg_colour">#E8DEC3</color>
+    <color name="btn_colour">#BB5244</color>
+    <color name="txt_colour">#BB5244</color>
+    
+    <!-- Buttons -->
+    <string name="new_customer">NEW CUSTOMER</string>
+    <string name="current_customer">CURRENT CUSTOMER</string>
     
 
 </resources>

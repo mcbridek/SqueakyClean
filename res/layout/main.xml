@@ -2,12 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-	android:background="@color/bg_colour" >
+    android:background="@color/bg_colour"
+    android:orientation="vertical" >
     
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/hello"
+        android:background="@color/txt_colour" />
+    
+    <Button
+        android:id="@+id/newCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/new_customer" 
+        android:background="@color/btn_colour" />
+
+    <Button
+        android:id="@+id/currentCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/current_customer"
+        android:background="@color/btn_colour" />
 
 </LinearLayout>
