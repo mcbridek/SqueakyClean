@@ -19,7 +19,6 @@ public class SqueakyCleanActivity extends Activity {
         
         SqueakyCleanHandler activityHandler = new SqueakyCleanHandler();
         
-        
         Button newCustomer =  (Button) findViewById(R.id.newCustomer);
         newCustomer.setOnClickListener((OnClickListener) activityHandler);
         

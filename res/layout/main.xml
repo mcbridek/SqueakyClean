@@ -1,30 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/bg_colour"
     android:orientation="vertical" >
-    
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello"
-        android:background="@color/txt_colour" />
-    
-    <Button
-        android:id="@+id/newCustomer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text="@string/new_customer" 
-        android:background="@color/btn_colour" />
 
     <Button
         android:id="@+id/currentCustomer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="196dp"
+        android:background="@color/btn_colour"
+        android:height="57dp"
         android:text="@string/current_customer"
-        android:background="@color/btn_colour" />
+        android:width="397dp" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/newCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/currentCustomer"
+        android:layout_alignLeft="@+id/currentCustomer"
+        android:layout_marginBottom="48dp"
+        android:background="@color/btn_colour"
+        android:height="57dp"
+        android:text="@string/new_customer"
+        android:width="397dp" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="537dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/newCustomer"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="53dp"
+        android:layout_marginRight="86dp"
+        android:text="@string/hello"
+        android:textColor="@color/txt_colour"
+        android:textSize="28dp" />
+
+</RelativeLayout>

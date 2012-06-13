@@ -13,6 +13,24 @@
     <!-- Buttons -->
     <string name="new_customer">NEW CUSTOMER</string>
     <string name="current_customer">CURRENT CUSTOMER</string>
+    <string name="cnt">CONTINUE</string>
+    
+    <!-- Form Fields -->
+    <string name="name">NAME</string>
+    <string name="surname">SURNAME</string>
+    <string name="email">EMAIL ADDRESS</string>
+    <string name="number">MOBILE NUMBER</string>
+    <string name="license">LICENSE PLATE</string>
+    
+    
+    <!-- List -->
+    <string name="garage_locations">GARAGE LOCATION</string>
+    <string-array name="garage_locations_array">
+        <item>St Pauls Bay</item>
+        <item>Sliema</item>
+        <item>Mosta</item>
+        <item>Mtarfa</item>
+    </string-array>
     
 
 </resources>
