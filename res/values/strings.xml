@@ -2,13 +2,15 @@
 <resources>
 
     <!-- Text -->
-    <string name="hello">Hello World, SqueakyCleanActivity!</string>
+    <string name="hello">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod”</string>
     <string name="app_name">Squeaky Clean</string>
+    <string name="newcust_txt">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod”</string>
     
     <!-- Colors -->
     <color name="bg_colour">#E8DEC3</color>
-    <color name="btn_colour">#BB5244</color>
-    <color name="txt_colour">#BB5244</color>
+    <color name="btn_txt_colour">#A89C83</color>
+    <color name="txt_colour">#6B5F52</color>
+    <color name="form_txt">#6B6152</color>
     
     <!-- Buttons -->
     <string name="new_customer">NEW CUSTOMER</string>
@@ -31,6 +33,16 @@
         <item>Mosta</item>
         <item>Mtarfa</item>
     </string-array>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="actionbarTheme" parent="@android:style/Theme.Holo">
+    	<item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
     
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    	<item name="android:background">#A63F38</item>
+		<item name="android:displayOptions">useLogo|showHome</item>
+	</style>
+        
 
 </resources>
